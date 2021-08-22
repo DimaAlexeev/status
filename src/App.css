@@ -1,0 +1,140 @@
+*{
+   font-family: Arial;
+}
+ .containerNew{
+   max-width: 1000px !important;
+ }
+ .formInput{
+   padding-left: 5px;
+  width: 336px !important;
+  height: 31px !important;
+  border-radius: 0% !important;
+ }
+.formLabel{
+  color: #000000;
+  font-size: 21px;
+  line-height: 19px;
+  width: 250px;
+  padding-bottom: 5px;
+}
+.HeadFirstWord{
+  color: #666666;
+}
+.HeadFirstWord, .HeadUserName{
+  font-size: 30px;
+  line-height: 34px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.HeadUserName{
+  color: #000000;
+}
+
+.arrow {
+   
+  margin-top:9px ;
+   
+  max-width: 350px;
+  min-height: 53px;
+	padding: 10px 10px;
+	position: relative;
+	background: #eee;
+	border-radius: 3px;
+  font-size: 14px;
+  line-height: 22px;
+
+}
+.arrow:before {
+	content: ""; 
+	border: solid transparent;
+	position: absolute;    
+	left: 8px;    
+	bottom: 100%;
+	border-bottom-color: #eee;
+	border-width: 9px;
+	margin-left: 0;
+}
+.Form{
+  margin-top: 32px;
+}
+.botLine{
+  padding-bottom: 32px;
+  border-bottom: 1px solid #E5E4E4;
+  margin-bottom: 32px;
+}
+.formHint{
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+  display: block;
+  margin-left: 18px;
+  word-break: normal;
+  width: 350px;
+  
+}
+.formAcceptIinformation{
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-left: 10px;
+}
+.formBtn{
+  width: 119px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF !important;
+  background: #71C838 !important;
+  box-shadow: 0px 1px 0px #539D22 !important;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25) !important;
+  border:none;
+}
+.formBtnStatus{
+  border:none;
+  background: #71C838;
+  box-shadow: 0px 1px 0px #539D22 ;
+  height: 31px;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 2px; 
+  margin-top: 5px;
+}
+ 
+.newStatus{
+font-size: 12px;
+line-height: 22px;
+height: 20px;
+margin-top: 10px;
+color: #0C77BB;
+text-decoration: none;  
+border-bottom: 1px dashed #0C77BB;
+}
+.recentСhanges{
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.formLine{
+  display: flex;
+  flex-wrap: wrap;
+}
+.br-top{
+  margin-top: 30px;
+}
+.formLinePanel{
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+.error{
+  border:1px solid red;
+}
+.errorText{
+  position: absolute;
+    left: 40%;
+    margin-top: 30px;
+    color: red;
+    font-size: 13px;
+    
+}
