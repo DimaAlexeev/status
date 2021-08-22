@@ -1,6 +1,5 @@
 
 import './App.css';
-import { Container, Form, Col, Row, Button } from 'react-bootstrap'
 import { useEffect, useState } from 'react';
 import { getCities } from './getUrl';
 
